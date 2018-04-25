@@ -1,18 +1,14 @@
 let counter = 0;
 
 const map = (array = [], func = (item) => item) => {
-    let counter = 0;
-    const mapInternal = (arrayInternal) => {
-        if (arrayInternal.length === 0) {
-            return []
-        }
-
+    return (function mapInternal(arrayInternal, counter) {
         const [head, ...tail] = arrayInternal
-        return [func(head, counter++, array)].concat(mapInternal(tail, func))
-    }
-
-    return mapInternal(array)
-
+        
+        return arrayInternal.length === 0 ? [] : [
+            func(head, counter, array),
+            ...mapInternal(tail, counter + 1)
+        ]
+    })(array, 0)
 
 };
 
