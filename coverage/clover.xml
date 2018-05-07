@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1525706599887" clover="3.2.0">
-  <project timestamp="1525706599887" name="All files">
-    <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="7" coveredelements="7" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1">
+<coverage generated="1525706909556" clover="3.2.0">
+  <project timestamp="1525706909556" name="All files">
+    <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="5" coveredelements="5" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1">
       <file name="reverse-recursive.js" path="/home/tgmarinho/Development/jest-in-practice/src/reverse/reverse-recursive.js">
-        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="6" count="5" type="stmt"/>
       </file>
     </metrics>
   </project>
