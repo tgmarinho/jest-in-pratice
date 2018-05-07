@@ -1,5 +1,5 @@
 
-import mainReduce from './main-reduce'
+import mainReduce from './main-reduce-recursive'
 
 const reduce = mainReduce
 
